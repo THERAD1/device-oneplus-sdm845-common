@@ -24,7 +24,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
 
 # Inherit OP Camera & gallery packages
-$(call inherit-product, vendor/camera/sdm845/config.mk)
+#$(call inherit-product, vendor/camera/sdm845/config.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
